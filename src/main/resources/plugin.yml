@@ -1,0 +1,23 @@
+name: KitPlugin
+version: 1.0.0
+main: de.leonfree312.kitplugin.KitPlugin
+description: Ein Kit Plugin für deinen Paper Server
+author: leonfree312
+
+commands:
+  kit:
+    description: Kit Befehle
+    usage: /kit <get|create|delete|list|reload>
+    aliases:
+      - kits
+
+permissions:
+  kit.use:
+    description: Erlaubt Spielern, Kits zu erhalten
+    default: true
+  kit.admin:
+    description: Erlaubt OPs, Kits zu verwalten
+    default: op
+  kit.reload:
+    description: Erlaubt das Neuladen der Konfiguration
+    default: op

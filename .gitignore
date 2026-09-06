@@ -1,0 +1,13 @@
+target/
+*.jar
+*.class
+.classpath
+.project
+.settings/
+*.iml
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+plugins/KitPlugin/
